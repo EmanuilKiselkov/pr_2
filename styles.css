@@ -9,4 +9,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
+}
+nav {
+  font-family: poppins;
+  font-size: 30px;
+  padding: 91px;
 }

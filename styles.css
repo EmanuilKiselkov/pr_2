@@ -1,0 +1,12 @@
+* {
+  background-color: #252930;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -3,16 +3,26 @@
   color: #ffffff;
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 
 .logo-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 nav {
   font-family: poppins;
   font-size: 30px;
   padding: 91px;
+}
+.category-listing {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: recursive;
+  font-style: italic;
+  font-size: 27px;
+  font-weight: 400;
+  color: #909090;
+  padding: 16px;
 }

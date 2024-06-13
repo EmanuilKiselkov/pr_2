@@ -14,15 +14,48 @@
 nav {
   font-family: poppins;
   font-size: 30px;
-  padding: 91px;
+  padding-top: 91px;
 }
 .category-listing {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-family: recursive;
   font-style: italic;
   font-size: 27px;
   font-weight: 400;
   color: #909090;
   padding: 16px;
+  padding-left: 150px;
+  padding-right: 150px;
+  border-top: solid 0.1px #4d4d4d;
+}
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 20px;
+
+  padding-left: 150px;
+  padding-right: 150px;
+
+
+}
+.grid-card {
+  background-color: white;
+  width: 390px;
+  height: 439px;
+  border-radius: 13px;
+  display:block;
+  padding: 20px;
+
+  
+  
+  
+}
+.grid-card > img {
+  width: 337.08px;
+  height: 160px;
+  border-radius: 13px;
+  object-fit: cover;
+ 
 }
